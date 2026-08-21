@@ -1,5 +1,5 @@
 public class Triangulo extends Forma {
-    public Triangulo (double 11, double 12, double 13) {
+    public Triangulo (double l1, double l2, double l3) {
         super (3);
         setMedida (0, 11); setMedida (1, 12); setMedida (2, 13);
     }
