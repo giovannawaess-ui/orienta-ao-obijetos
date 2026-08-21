@@ -1,0 +1,12 @@
+public class Triangulo extends Forma {
+    public Triangulo (double 11, double 12, double 13) {
+        super (3);
+        setMedida (0, 11); setMedida (1, 12); setMedida (2, 13);
+    }
+
+    public double area (){
+        double sp = (getMedida(0) + getMedida(1) + getMedida(2))/2;
+        double aux = sp * (sp-getMedida(0)) * (sp-getMedida(1))* (sp-getMedida(2));
+        return Math.sqrt(aux); 
+    }
+}
