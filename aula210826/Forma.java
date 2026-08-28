@@ -1,3 +1,4 @@
+package aula210826;
 public abstract class Forma{
     private double medida[];
     public Forma (int numMedidas) {

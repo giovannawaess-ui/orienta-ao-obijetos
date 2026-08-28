@@ -1,3 +1,4 @@
+package aula210826;
 public class Triangulo extends Forma {
     public Triangulo (double l1, double l2, double l3) {
         super (3);
